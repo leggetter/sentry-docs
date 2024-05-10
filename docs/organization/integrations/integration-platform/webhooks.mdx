@@ -148,6 +148,6 @@ Webhooks should respond within 1 second. Otherwise, the response is considered a
 
 ## Developing and Testing Webhooks
 
-If you’d like to test webhook configuration and look at payloads before starting development, an HTTP catch-all service that provides a designated URL where you can receive HTTP payloads and inspect the JSON event payload can come in handy. After you’ve reviewed the relevant event payloads, you can begin development.
+If you’d like to test webhook configuration and look at payloads before starting development, an HTTP catch-all service that provides a designated URL where you can receive HTTP payloads and inspect the JSON event payload, such as [Hookdeck](https://hookdeck.com), can come in handy. After you’ve reviewed the relevant event payloads, you can begin development.
 
-To make testing and debugging webhooks faster and easier, you can create local tunnels to get incoming webhook requests from Sentry to your local machine. There are various tools that let you pick a port or address (such as 3000 or 8080) to be tunneled, and then provide you with a temporary public URL that forwards requests to your local server.
+To make testing and debugging webhooks faster and easier, you can create local tunnels to get incoming webhook requests from Sentry to your local machine, such as the [Hookdeck CLI](https://hookdeck.com/docs/cli). There are various tools that let you pick a port or address (such as 3000 or 8080) to be tunneled, and then provide you with a temporary public URL that forwards requests to your local server.
